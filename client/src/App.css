@@ -136,3 +136,24 @@
   cursor:pointer;
 }
 
+#paypal-container-PUUUKTNVG2QRG {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#paypal-container-PUUUKTNVG2QRG form {
+  display: inline-grid !important;
+  justify-items: center;
+  align-content: start;
+  gap: 0.5rem;
+}
+
+#paypal-container-PUUUKTNVG2QRG img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
