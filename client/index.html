@@ -19,6 +19,22 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <!-- PayPal SDK for Tips Button -->
+    <script
+      src="https://www.paypal.com/sdk/js?client-id=BAAoy2W7h3eUgThacZ8oyWqiuB0VQXZoMLxLPopBi0ecsf7LZFQmdxry0P0j9ujopESc9P3UVHOC7lPq3A&components=hosted-buttons&enable-funding=venmo&currency=USD" 
+      crossorigin="anonymous" 
+      async>
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", (event) => {
+        if (window.paypal) {
+          paypal.HostedButtons({
+            hostedButtonId: "PUUUKTNVG2QRG"
+          })
+          .render("#paypal-container-PUUUKTNVG2QRG")
+        }
+      })
+    </script>
     <script
       defer
       src="%VITE_ANALYTICS_ENDPOINT%/umami"
