@@ -7,13 +7,14 @@ import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group.jsx'
 import { Checkbox } from '@/components/ui/checkbox.jsx'
 import { Menu, X, ChevronDown, CheckCircle } from 'lucide-react'
 import '@/App.css'
-import dominantWoman1 from '@/assets/dominant_woman_1.jpg'
-import dominantWoman2 from '@/assets/dominant_woman_2.jpg'
-import dominantWomanSilhouette from '@/assets/dominant_woman_silhouette.jpg'
-import gagBall from '@/assets/gag_ball.jpg'
-import powerControlArt from '@/assets/power_control_art.jpg'
-import abstractHandControl from '@/assets/abstract_hand_control.jpg'
-import stAndrewsCross from '@/assets/st_andrews_cross.png'
+// Using public image paths instead of imports
+const dominantWoman1 = '/dominant_woman_1.jpg'
+const dominantWoman2 = '/dominant_woman_2.jpg'
+const dominantWomanSilhouette = '/dominant_woman_silhouette.jpg'
+const gagBall = '/gag_ball.jpg'
+const powerControlArt = '/power_control_art.jpg'
+const abstractHandControl = '/abstract_hand_control.jpg'
+const stAndrewsCross = '/st_andrews_cross.png'
 
 // --- New Thank You Page Component ---
 function ThankYouPage() {
