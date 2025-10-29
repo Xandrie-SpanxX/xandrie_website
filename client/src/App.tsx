@@ -290,7 +290,9 @@ function App() {
                 />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-red-400">Phone Sex Operator</h3>
-              <p className="text-gray-400">Experience Xandrie's commanding voice and expert guidance in real-time, intimate phone sessions.</p>
+              <p className="text-gray-400 mb-4">Experience Xandrie's commanding voice and expert guidance in real-time, intimate phone sessions.</p>
+              <p className="text-red-400 font-bold">727-604-6669</p>
+              <p className="text-gray-400 text-sm mt-2">Premium.Chat: <a href="https://premium.chat/Goddess_Xandrie_Spanxx" className="text-red-500 hover:text-red-400">Goddess_Xandrie_Spanxx</a></p>
             </a>
 
             {/* Service 3 */}
