@@ -1,8 +1,7 @@
 # Xandrie SpanxX Website - TODO
 
-## Bugs to Fix
-- [x] Images not displaying on the website
-- [x] Tips section text is displaying one letter per line and is not legible
+## Current Tasks
+- [x] Integrate Formspree form submission (xldobnpe) into application form
 
 ## Completed Features
 - [x] Hero section with call-to-action

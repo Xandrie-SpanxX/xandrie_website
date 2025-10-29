@@ -75,12 +75,45 @@ function App() {
     setFormData(prev => ({ ...prev, [name]: checked }))
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    // In a real application, you would send the data to a backend server.
-    // For now, we'll simulate this by logging to the console and showing an alert.
-    console.log("Form submitted:", formData);
-    alert("Application submitted! When an application is submitted, the data is sent to a secure server. Xandrie SpanxX is then notified and can review the application details. If the application is a good fit, she will contact the applicant via the provided email address to discuss the next steps.");
+    // Submit the form data to Formspree
+    const form = e.currentTarget
+    const formDataToSubmit = new FormData(form)
+    
+    fetch('https://formspree.io/f/xldobnpe', {
+      method: 'POST',
+      body: formDataToSubmit,
+      headers: {
+        'Accept': 'application/json'
+      }
+    })
+    .then(response => {
+      if (response.ok) {
+        alert("Application submitted successfully! Xandrie SpanxX will review your application and contact you via the provided email address if you are a good fit. Thank you for your interest!")
+        // Reset form
+        setFormData({
+          name: '',
+          age: '',
+          location: '',
+          experience: '',
+          attraction: '',
+          seeking: '',
+          dominanceType: '',
+          engagement: '',
+          limits: '',
+          consent: false,
+          privacy: false,
+        })
+        form.reset()
+      } else {
+        alert("There was an error submitting your application. Please try again.")
+      }
+    })
+    .catch(error => {
+      console.error('Error:', error)
+      alert("There was an error submitting your application. Please try again.")
+    })
   }
 
   const scrollToSection = (sectionId: string) => {
@@ -285,7 +318,7 @@ function App() {
             </span>
           </h2>
           
-          <form onSubmit={handleSubmit} className="space-y-8">
+          <form onSubmit={handleSubmit} className="space-y-8" method="POST" action="https://formspree.io/f/xldobnpe">
             {/* Personal Information */}
             <div className="grid md:grid-cols-2 gap-8">
               <div>
