@@ -1,7 +1,13 @@
 # Xandrie SpanxX Website - TODO
 
-## Current Tasks
-- [x] Integrate Formspree form submission (xldobnpe) into application form
+## Current Tasks - URGENT FIXES NEEDED
+- [ ] Fix radio button options not clickable in dominance type selection
+- [ ] Fix Formspree form not submitting properly
+- [x] Add phone number 727-604-6669 to visible locations on site
+- [x] Add more contact information throughout the site
+- [ ] Ensure form is fully functional end-to-end
+- [x] Replace Adult Filmstar image with appropriate image (not wizard)
+- [x] Ensure St. Andrew's Cross displays at bottom of contact section
 
 ## Completed Features
 - [x] Hero section with call-to-action

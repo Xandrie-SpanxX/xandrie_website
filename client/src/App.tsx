@@ -299,7 +299,7 @@ function App() {
             <div className="bg-black border border-red-900/50 rounded-lg p-6">
               <div className="mb-4">
                 <img 
-                  src={powerControlArt} 
+                  src={dominantWomanSilhouette} 
                   alt="Adult Filmstar" 
                   className="w-full h-48 object-cover rounded-lg"
                 />
@@ -559,8 +559,16 @@ function App() {
             <div className="bg-gray-900 border border-red-900/50 rounded-lg p-8">
               <h3 className="text-xl font-bold mb-4 text-red-400">Client Services</h3>
               <p className="text-gray-300 mb-4">For current or prospective clients seeking sessions or guidance.</p>
-              <a href="mailto:Xandrie.SpanxX@bdsmail.com" className="text-red-500 hover:text-red-400 transition-colors">
+              <a href="mailto:Xandrie.SpanxX@bdsmail.com" className="text-red-500 hover:text-red-400 transition-colors font-bold">
                 Xandrie.SpanxX@bdsmail.com
+              </a>
+              <p className="text-gray-400 mt-4">Phone:</p>
+              <a href="tel:727-604-6669" className="text-red-500 hover:text-red-400 transition-colors font-bold text-lg">
+                727-604-6669
+              </a>
+              <p className="text-gray-400 mt-4">Premium.Chat:</p>
+              <a href="https://premium.chat/Goddess_Xandrie_Spanxx" target="_blank" rel="noopener noreferrer" className="text-red-500 hover:text-red-400 transition-colors">
+                premium.chat/Goddess_Xandrie_Spanxx
               </a>
             </div>
           </div>
