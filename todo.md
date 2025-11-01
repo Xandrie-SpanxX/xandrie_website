@@ -8,6 +8,11 @@
 - [ ] Ensure form is fully functional end-to-end
 - [x] Replace Adult Filmstar image with appropriate image (not wizard)
 - [x] Ensure St. Andrew's Cross displays at bottom of contact section
+- [ ] Add applicant contact information fields (email required, phone optional)
+- [ ] Expand form with professional safety and screening questions
+- [x] Add whip crack sound effect on form submission
+- [ ] Integrate Manus built-in notification system for viewer and submission alerts
+- [ ] Set up Google Analytics tracking for the site
 
 ## Completed Features
 - [x] Hero section with call-to-action

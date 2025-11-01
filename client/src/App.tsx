@@ -50,6 +50,8 @@ function App() {
   const [formData, setFormData] = useState({
     name: '',
     age: '',
+    email: '',
+    phone: '',
     location: '',
     experience: '',
     attraction: '',
@@ -57,6 +59,11 @@ function App() {
     dominanceType: '',
     engagement: '',
     limits: '',
+    discretion: '',
+    references: '',
+    availability: '',
+    expectations: '',
+    safewords: '',
     consent: false,
     privacy: false,
   });
@@ -90,11 +97,17 @@ function App() {
     })
     .then(response => {
       if (response.ok) {
+        // Play whip crack sound
+        const audio = new Audio('/whip-crack.mp3')
+        audio.play().catch(err => console.log('Audio play failed:', err))
+        
         alert("Application submitted successfully! Xandrie SpanxX will review your application and contact you via the provided email address if you are a good fit. Thank you for your interest!")
         // Reset form
         setFormData({
           name: '',
           age: '',
+          email: '',
+          phone: '',
           location: '',
           experience: '',
           attraction: '',
@@ -102,6 +115,11 @@ function App() {
           dominanceType: '',
           engagement: '',
           limits: '',
+          discretion: '',
+          references: '',
+          availability: '',
+          expectations: '',
+          safewords: '',
           consent: false,
           privacy: false,
         })
