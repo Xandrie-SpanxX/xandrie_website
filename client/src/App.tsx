@@ -367,6 +367,35 @@ function App() {
                 />
               </div>
             </div>
+
+            {/* Contact Information */}
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <Label htmlFor="email" className="text-gray-300">Email Address *</Label>
+                <Input 
+                  id="email"
+                  name="email"
+                  type="email"
+                  value={formData.email}
+                  onChange={handleInputChange}
+                  required
+                  className="bg-gray-900 border-red-900/50 text-white mt-2"
+                  placeholder="your.email@example.com"
+                />
+              </div>
+              <div>
+                <Label htmlFor="phone" className="text-gray-300">Phone Number</Label>
+                <Input 
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  value={formData.phone}
+                  onChange={handleInputChange}
+                  className="bg-gray-900 border-red-900/50 text-white mt-2"
+                  placeholder="(Optional) Your phone number"
+                />
+              </div>
+            </div>
             
             <div>
               <Label htmlFor="location" className="text-gray-300">Location (City, Country)</Label>
