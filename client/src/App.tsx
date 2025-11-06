@@ -18,6 +18,7 @@ const stAndrewsCross = '/st_andrews_cross.png'
 
 // --- New Thank You Page Component ---
 function ThankYouPage() {
+  // make sure to consider if you need authentication for certain routes
   return (
     <div className="min-h-screen bg-black text-white flex items-center justify-center">
       <div className="max-w-xl mx-auto p-8 text-center bg-gray-900 rounded-xl shadow-2xl border border-red-900/50">
