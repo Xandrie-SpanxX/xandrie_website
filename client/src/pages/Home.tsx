@@ -34,76 +34,99 @@ export default function Home() {
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <Button size="lg" onClick={() => window.location.href = '/login'}>
-              Enter Platform
+              Browse Performers
             </Button>
-            <Button size="lg" variant="outline" onClick={() => window.location.href = '/documents'}>
-              View Documents
+            <Button size="lg" variant="outline" onClick={() => window.location.href = '/login'}>
+              Apply as Performer
             </Button>
           </div>
         </section>
 
-        {/* About Section */}
+        {/* Services Section */}
         <section className="py-16 px-4 bg-gray-900/50">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-red-500 text-center">
-              About {APP_TITLE}
+              Our Services
             </h2>
-            <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Omerta Angels is the premier platform for adult entertainers specializing in findom, BDSM, and niche fetish services. We provide a safe, professional, and lucrative environment for performers to showcase their talents and connect with verified clients.
-            </p>
-            <div className="grid md:grid-cols-3 gap-6 mt-8">
+            <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-gray-800/50 p-6 rounded-lg border border-red-900/30">
-                <h3 className="text-xl font-bold text-red-500 mb-3">For Performers</h3>
+                <h3 className="text-xl font-bold text-red-500 mb-3">Financial Domination</h3>
                 <p className="text-gray-300">
-                  Manage galleries, upload content, and earn 70% commission on all transactions. Full control over your content and privacy.
+                  Experience the thrill of financial submission with our specialized findom performers. Tribute, worship, and submit to financial control in a safe, consensual environment.
                 </p>
               </div>
               <div className="bg-gray-800/50 p-6 rounded-lg border border-red-900/30">
-                <h3 className="text-xl font-bold text-red-500 mb-3">For Clients</h3>
+                <h3 className="text-xl font-bold text-red-500 mb-3">BDSM & Domination</h3>
                 <p className="text-gray-300">
-                  Browse verified performers, access exclusive content, and connect with specialists in your niche interests safely and discreetly.
+                  Connect with experienced dominatrices specializing in bondage, discipline, and power exchange. Explore your submissive fantasies with professional performers.
                 </p>
               </div>
               <div className="bg-gray-800/50 p-6 rounded-lg border border-red-900/30">
-                <h3 className="text-xl font-bold text-red-500 mb-3">Professional Standards</h3>
+                <h3 className="text-xl font-bold text-red-500 mb-3">Niche Fetishes</h3>
                 <p className="text-gray-300">
-                  Comprehensive contracts, waivers, and legal protection for all parties. Secure payment processing and confidentiality guaranteed.
+                  Discover performers specializing in your specific interests. From roleplay to humiliation, we connect you with experts in your favorite niches.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Features Section */}
+        {/* Why Choose Us Section */}
         <section className="py-16 px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-red-500 text-center">
-              Platform Features
+              Why Choose Omerta Angels?
             </h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="border border-red-900/30 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-red-500 mb-3">✓ Secure File Storage</h3>
-                <p className="text-gray-300">Upload and manage photos, videos, and documents with full approval workflow and privacy controls.</p>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-bold text-red-500 mb-3">For Clients</h3>
+                <ul className="space-y-3 text-gray-300">
+                  <li className="flex items-start gap-3">
+                    <span className="text-red-500 font-bold">✓</span>
+                    <span>Verified and screened performers</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-red-500 font-bold">✓</span>
+                    <span>Complete privacy and discretion guaranteed</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-red-500 font-bold">✓</span>
+                    <span>Secure payment processing</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-red-500 font-bold">✓</span>
+                    <span>Professional legal agreements and contracts</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-red-500 font-bold">✓</span>
+                    <span>Browse exclusive content and galleries</span>
+                  </li>
+                </ul>
               </div>
-              <div className="border border-red-900/30 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-red-500 mb-3">✓ Gallery Management</h3>
-                <p className="text-gray-300">Organize content into galleries with customizable pricing and access controls.</p>
-              </div>
-              <div className="border border-red-900/30 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-red-500 mb-3">✓ Legal Documents</h3>
-                <p className="text-gray-300">Professional contracts, waivers, and agreements for all service types and dynamics.</p>
-              </div>
-              <div className="border border-red-900/30 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-red-500 mb-3">✓ Secure Messaging</h3>
-                <p className="text-gray-300">Encrypted communication between performers and clients with full confidentiality.</p>
-              </div>
-              <div className="border border-red-900/30 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-red-500 mb-3">✓ Payment Processing</h3>
-                <p className="text-gray-300">Multiple payment options with secure processing and detailed earnings reports.</p>
-              </div>
-              <div className="border border-red-900/30 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-red-500 mb-3">✓ Avatar System</h3>
-                <p className="text-gray-300">Represent yourself with custom avatars for additional privacy and anonymity.</p>
+              <div>
+                <h3 className="text-xl font-bold text-red-500 mb-3">For Performers</h3>
+                <ul className="space-y-3 text-gray-300">
+                  <li className="flex items-start gap-3">
+                    <span className="text-red-500 font-bold">✓</span>
+                    <span>Earn 70% commission on all transactions</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-red-500 font-bold">✓</span>
+                    <span>Full control over your content and pricing</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-red-500 font-bold">✓</span>
+                    <span>Complete privacy and anonymity options</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-red-500 font-bold">✓</span>
+                    <span>Professional support and resources</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-red-500 font-bold">✓</span>
+                    <span>Secure client screening and verification</span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -113,18 +136,45 @@ export default function Home() {
         <section className="py-16 px-4 bg-red-900/20 border-t border-b border-red-900/30">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6 text-red-500">
-              Ready to Get Started?
+              Ready to Explore?
             </h2>
             <p className="text-gray-300 mb-8 text-lg">
-              Join Omerta Angels today and connect with a community of professional adult entertainers and verified clients.
+              Join Omerta Angels and connect with a community of professional adult entertainers and verified clients.
             </p>
             <div className="flex gap-4 justify-center flex-wrap">
               <Button size="lg" onClick={() => window.location.href = '/login'}>
-                Create Account
+                Browse Performers
               </Button>
-              <Button size="lg" variant="outline" onClick={() => window.location.href = '/documents'}>
-                Review Documents
+              <Button size="lg" variant="outline" onClick={() => window.location.href = '/login'}>
+                Apply as Performer
               </Button>
+            </div>
+          </div>
+        </section>
+
+        {/* Platform Information - Small Footer Section */}
+        <section className="py-8 px-4 bg-gray-900/30 border-t border-gray-800">
+          <div className="max-w-4xl mx-auto">
+            <h3 className="text-sm font-semibold text-gray-400 uppercase mb-4 text-center">
+              Platform Security & Privacy
+            </h3>
+            <div className="grid md:grid-cols-4 gap-4 text-center text-xs text-gray-500">
+              <div>
+                <p className="font-semibold text-gray-300 mb-1">Secure Storage</p>
+                <p>All documents and files securely stored</p>
+              </div>
+              <div>
+                <p className="font-semibold text-gray-300 mb-1">Legal Agreements</p>
+                <p>Professional contracts and waivers</p>
+              </div>
+              <div>
+                <p className="font-semibold text-gray-300 mb-1">Privacy Protected</p>
+                <p>Your information is never shared</p>
+              </div>
+              <div>
+                <p className="font-semibold text-gray-300 mb-1">Verified Users</p>
+                <p>All participants are screened</p>
+              </div>
             </div>
           </div>
         </section>
