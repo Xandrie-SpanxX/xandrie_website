@@ -648,7 +648,14 @@ function App() {
           <p className="text-gray-400 mb-12 text-lg">
             If you'd like to show your appreciation for Xandrie SpanxX's time and expertise, tips are always welcome and deeply appreciated.
           </p>
-          <div id="paypal-container-PUUUKTNVG2QRG" className="flex justify-center"></div>
+          <a 
+            href="https://www.paypal.com/ncp/payment/PUUUKTNVG2QRG" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg rounded-lg transition-all transform hover:scale-105 font-bold"
+          >
+            Send a Tribute via PayPal
+          </a>
         </div>
       </section>
 
