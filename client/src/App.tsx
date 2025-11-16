@@ -10,6 +10,8 @@ import PerformerDashboard from './pages/PerformerDashboard'
 import ClientDashboard from './pages/ClientDashboard'
 import LoginPage from './pages/LoginPage'
 import DocumentLibrary from './pages/DocumentLibrary'
+import ClientInquiry from './pages/ClientInquiry'
+import ThankYou from './pages/ThankYou'
 
 function Router() {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
@@ -53,6 +55,8 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/login" component={LoginPage} />
       <Route path="/documents" component={DocumentLibrary} />
+      <Route path="/inquiry" component={ClientInquiry} />
+      <Route path="/thank-you" component={ThankYou} />
 
       {/* Protected Routes */}
       {isAuthenticated && userType === 'performer' && (

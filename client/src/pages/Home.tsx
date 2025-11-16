@@ -142,8 +142,8 @@ export default function Home() {
               Join Omerta Angels and connect with a community of professional adult entertainers and verified clients.
             </p>
             <div className="flex gap-4 justify-center flex-wrap">
-              <Button size="lg" onClick={() => window.location.href = '/login'}>
-                Browse Performers
+              <Button size="lg" onClick={() => window.location.href = '/inquiry'}>
+                Submit Inquiry
               </Button>
               <Button size="lg" variant="outline" onClick={() => window.location.href = '/login'}>
                 Apply as Performer
