@@ -409,36 +409,36 @@ function App() {
                 onValueChange={(value) => setFormData(prev => ({ ...prev, dominanceType: value }))}
                 className="space-y-3"
               >
-                <div className="flex items-center space-x-2 bg-gray-900 p-4 rounded-lg border border-red-900/30 hover:border-red-500 transition-colors">
+                <button type="button" onClick={() => setFormData(prev => ({ ...prev, dominanceType: 'findom' }))} className={`flex items-center space-x-2 w-full bg-gray-900 p-4 rounded-lg border transition-colors cursor-pointer ${ formData.dominanceType === 'findom' ? 'border-red-500 bg-red-900/20' : 'border-red-900/30 hover:border-red-500'}`}>
                   <RadioGroupItem value="findom" id="findom" />
-                  <Label htmlFor="findom" className="text-gray-300 cursor-pointer flex-1">
+                  <Label htmlFor="findom" className="text-gray-300 cursor-pointer flex-1 m-0">
                     <span className="font-bold text-red-400">Financial Domination (Findom)</span> - Dedicated to financial tribute and control.
                   </Label>
-                </div>
-                <div className="flex items-center space-x-2 bg-gray-900 p-4 rounded-lg border border-red-900/30 hover:border-red-500 transition-colors">
+                </button>
+                <button type="button" onClick={() => setFormData(prev => ({ ...prev, dominanceType: 'real_life' }))} className={`flex items-center space-x-2 w-full bg-gray-900 p-4 rounded-lg border transition-colors cursor-pointer ${ formData.dominanceType === 'real_life' ? 'border-red-500 bg-red-900/20' : 'border-red-900/30 hover:border-red-500'}`}>
                   <RadioGroupItem value="real_life" id="real_life" />
-                  <Label htmlFor="real_life" className="text-gray-300 cursor-pointer flex-1">
+                  <Label htmlFor="real_life" className="text-gray-300 cursor-pointer flex-1 m-0">
                     <span className="font-bold text-red-400">Real Life Sessions</span> - In-person dominatrix sessions.
                   </Label>
-                </div>
-                <div className="flex items-center space-x-2 bg-gray-900 p-4 rounded-lg border border-red-900/30 hover:border-red-500 transition-colors">
+                </button>
+                <button type="button" onClick={() => setFormData(prev => ({ ...prev, dominanceType: 'hotline' }))} className={`flex items-center space-x-2 w-full bg-gray-900 p-4 rounded-lg border transition-colors cursor-pointer ${ formData.dominanceType === 'hotline' ? 'border-red-500 bg-red-900/20' : 'border-red-900/30 hover:border-red-500'}`}>
                   <RadioGroupItem value="hotline" id="hotline" />
-                  <Label htmlFor="hotline" className="text-gray-300 cursor-pointer flex-1">
+                  <Label htmlFor="hotline" className="text-gray-300 cursor-pointer flex-1 m-0">
                     <span className="font-bold text-red-400">Hotline / Phone Sessions</span> - Verbal dominance and control via phone.
                   </Label>
-                </div>
-                <div className="flex items-center space-x-2 bg-gray-900 p-4 rounded-lg border border-red-900/30 hover:border-red-500 transition-colors">
+                </button>
+                <button type="button" onClick={() => setFormData(prev => ({ ...prev, dominanceType: 'online_chat' }))} className={`flex items-center space-x-2 w-full bg-gray-900 p-4 rounded-lg border transition-colors cursor-pointer ${ formData.dominanceType === 'online_chat' ? 'border-red-500 bg-red-900/20' : 'border-red-900/30 hover:border-red-500'}`}>
                   <RadioGroupItem value="online_chat" id="online_chat" />
-                  <Label htmlFor="online_chat" className="text-gray-300 cursor-pointer flex-1">
+                  <Label htmlFor="online_chat" className="text-gray-300 cursor-pointer flex-1 m-0">
                     <span className="font-bold text-red-400">Online Chat / Text Sessions</span> - Digital dominance and interaction.
                   </Label>
-                </div>
-                <div className="flex items-center space-x-2 bg-gray-900 p-4 rounded-lg border border-red-900/30 hover:border-red-500 transition-colors">
+                </button>
+                <button type="button" onClick={() => setFormData(prev => ({ ...prev, dominanceType: 'video_chat' }))} className={`flex items-center space-x-2 w-full bg-gray-900 p-4 rounded-lg border transition-colors cursor-pointer ${ formData.dominanceType === 'video_chat' ? 'border-red-500 bg-red-900/20' : 'border-red-900/30 hover:border-red-500'}`}>
                   <RadioGroupItem value="video_chat" id="video_chat" />
-                  <Label htmlFor="video_chat" className="text-gray-300 cursor-pointer flex-1">
+                  <Label htmlFor="video_chat" className="text-gray-300 cursor-pointer flex-1 m-0">
                     <span className="font-bold text-red-400">Video Chat Sessions</span> - Visual and verbal dominance via video call.
                   </Label>
-                </div>
+                </button>
               </RadioGroup>
             </div>
 
