@@ -141,6 +141,7 @@ function App() {
               <button onClick={() => scrollToSection('home')} className="hover:text-red-500 transition-colors">Home</button>
               <button onClick={() => scrollToSection('about')} className="hover:text-red-500 transition-colors">About</button>
               <button onClick={() => scrollToSection('services')} className="hover:text-red-500 transition-colors">Services</button>
+              <button onClick={() => scrollToSection('gallery')} className="hover:text-red-500 transition-colors">Gallery</button>
               <button onClick={() => scrollToSection('application')} className="hover:text-red-500 transition-colors">Apply</button>
               <button onClick={() => scrollToSection('contact')} className="hover:text-red-500 transition-colors">Contact</button>
             </div>
@@ -161,6 +162,7 @@ function App() {
               <button onClick={() => scrollToSection('home')} className="block w-full text-left px-3 py-2 hover:bg-red-900/20 rounded">Home</button>
               <button onClick={() => scrollToSection('about')} className="block w-full text-left px-3 py-2 hover:bg-red-900/20 rounded">About</button>
               <button onClick={() => scrollToSection('services')} className="block w-full text-left px-3 py-2 hover:bg-red-900/20 rounded">Services</button>
+              <button onClick={() => scrollToSection('gallery')} className="block w-full text-left px-3 py-2 hover:bg-red-900/20 rounded">Gallery</button>
               <button onClick={() => scrollToSection('application')} className="block w-full text-left px-3 py-2 hover:bg-red-900/20 rounded">Apply</button>
               <button onClick={() => scrollToSection('contact')} className="block w-full text-left px-3 py-2 hover:bg-red-900/20 rounded">Contact</button>
             </div>
@@ -306,6 +308,126 @@ function App() {
               </div>
               <h3 className="text-2xl font-bold mb-4 text-red-400">Adult Filmstar</h3>
               <p className="text-gray-400">Explore a curated selection of Xandrie's powerful performances in the world of adult film.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Goddess Gallery - Professional Mistress Portfolio */}
+      <section id="gallery" className="py-20 px-4 bg-black border-t border-red-900/50">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
+            <span className="bg-gradient-to-r from-red-600 to-red-400 bg-clip-text text-transparent">
+              Goddess Gallery - Professional Mistress & Domination
+            </span>
+          </h2>
+          <p className="text-center text-gray-400 mb-2 text-lg font-semibold">Xandrie SpanxX - Professional Mistress, Goddess Worship, Financial Domination</p>
+          <p className="text-center text-gray-500 mb-12 text-sm">SEO Keywords: professional mistress, goddess worship, financial domination, findom goddess, paypig training, virtual domination, luxury domination, online mistress, professional domme, commanding presence, foot worship goddess</p>
+          
+          {/* Gallery Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            {/* Image 1 - Luxury Dungeon */}
+            <div className="bg-gray-900 border border-red-900/50 rounded-lg overflow-hidden hover:border-red-500 transition-all hover:shadow-lg hover:shadow-red-900/50">
+              <img src="/goddess_gallery_1.jpg" alt="Professional Mistress - Luxury Domination Experience" className="w-full h-96 object-cover" />
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-red-400 mb-2">Professional Mistress Experience</h3>
+                <p className="text-gray-300 text-sm">Luxury domination setting with commanding presence. Keywords: professional mistress, goddess worship, luxury domination, experienced domme</p>
+              </div>
+            </div>
+            
+            {/* Image 2 - Luxury Dungeon with Garters */}
+            <div className="bg-gray-900 border border-red-900/50 rounded-lg overflow-hidden hover:border-red-500 transition-all hover:shadow-lg hover:shadow-red-900/50">
+              <img src="/goddess_gallery_3.jpg" alt="Findom Goddess - Financial Domination" className="w-full h-96 object-cover" />
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-red-400 mb-2">Findom Goddess - Tribute & Worship</h3>
+                <p className="text-gray-300 text-sm">Financial domination goddess aesthetic. Keywords: findom goddess, paypig training, tribute goddess, financial domination, worship the goddess</p>
+              </div>
+            </div>
+            
+            {/* Image 3 - Crouching Pose */}
+            <div className="bg-gray-900 border border-red-900/50 rounded-lg overflow-hidden hover:border-red-500 transition-all hover:shadow-lg hover:shadow-red-900/50">
+              <img src="/goddess_gallery_catsuit_crouch.png" alt="Commanding Mistress - Tactical Domination" className="w-full h-96 object-cover" />
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-red-400 mb-2">Commanding Mistress - Tactical Presence</h3>
+                <p className="text-gray-300 text-sm">Professional latex aesthetic with commanding authority. Keywords: commanding mistress, professional domme, tactical domination, powerful presence</p>
+              </div>
+            </div>
+            
+            {/* Image 4 - Whip Pose */}
+            <div className="bg-gray-900 border border-red-900/50 rounded-lg overflow-hidden hover:border-red-500 transition-all hover:shadow-lg hover:shadow-red-900/50">
+              <img src="/goddess_gallery_catsuit_whip.png" alt="Mistress with Whip - BDSM Domination" className="w-full h-96 object-cover" />
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-red-400 mb-2">Mistress with Authority - BDSM Domination</h3>
+                <p className="text-gray-300 text-sm">Professional domination aesthetic with commanding tools. Keywords: mistress with whip, BDSM domination, professional domination, commanding mistress, experienced domme</p>
+              </div>
+            </div>
+          </div>
+          
+          {/* Featured Video - Goddess Feet & Foot Worship */}
+          <div className="max-w-3xl mx-auto mb-12">
+            <div className="bg-gray-900 border border-red-900/50 rounded-lg overflow-hidden hover:border-red-500 transition-all">
+              <video 
+                controls 
+                className="w-full h-auto"
+                poster="/goddess_gallery_1.jpg"
+              >
+                <source src="/footsies.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div className="p-8">
+                <h3 className="text-3xl font-bold mb-4 text-red-400">The Feet of a Goddess - Foot Worship Experience</h3>
+                <p className="text-gray-300 mb-6 text-lg">Experience the ultimate foot worship fantasy with Xandrie SpanxX's goddess feet. This exclusive professional foot fetish content showcases intimate foot worship and feet domination in a luxury setting. Perfect for those seeking genuine foot worship experiences and professional foot fetish services from an experienced mistress.</p>
+                
+                <div className="bg-gray-800 border border-red-900/30 rounded-lg p-6 mb-6">
+                  <h4 className="text-red-400 font-bold mb-3">Featured Content - Goddess Feet & Foot Worship:</h4>
+                  <ul className="text-gray-300 space-y-2">
+                    <li>✦ Professional foot worship content featuring goddess feet</li>
+                    <li>✦ Intimate foot fetish experience with commanding presence</li>
+                    <li>✦ Feet domination and foot worship demonstration</li>
+                    <li>✦ Luxury setting with professional production quality</li>
+                    <li>✦ The feet of a goddess - professional foot domination</li>
+                  </ul>
+                </div>
+                
+                <div className="flex flex-wrap gap-2 mb-6">
+                  <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Foot Worship</span>
+                  <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Goddess Feet</span>
+                  <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Foot Fetish</span>
+                  <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Professional Mistress</span>
+                  <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Feet Domination</span>
+                  <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Findom Goddess</span>
+                  <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Virtual Domination</span>
+                </div>
+                
+                <p className="text-gray-400 text-xs mb-6 italic">Keywords: foot worship, goddess feet, feet fetish, professional foot domination, foot worship experience, goddess foot worship, foot fetish content, professional mistress, experienced domme, online domination, findom goddess, paypig training, financial domination, virtual domination, luxury domination, commanding mistress, professional domination</p>
+                
+                <a href="https://premium.chat/Goddess_Xandrie_Spanxx" target="_blank" rel="noopener noreferrer" className="inline-block bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg transition-all transform hover:scale-105 font-bold">
+                  Book Your Goddess Experience
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          {/* SEO Content Section */}
+          <div className="bg-gray-900 border border-red-900/30 rounded-lg p-8">
+            <h3 className="text-2xl font-bold text-red-400 mb-4">Professional Services - SEO Keywords</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-300 text-sm">
+              <div>
+                <p className="font-semibold text-red-300 mb-2">Mistress Services:</p>
+                <p>Professional mistress, experienced domme, commanding mistress, luxury domination, online mistress, virtual domination, professional domination, BDSM domination</p>
+              </div>
+              <div>
+                <p className="font-semibold text-red-300 mb-2">Goddess Worship & Findom:</p>
+                <p>Goddess worship, findom goddess, paypig training, financial domination, tribute goddess, worship the goddess, financial submission, money slave training</p>
+              </div>
+              <div>
+                <p className="font-semibold text-red-300 mb-2">Foot Fetish & Worship:</p>
+                <p>Foot worship, goddess feet, feet fetish, professional foot domination, foot worship experience, goddess foot worship, feet domination, foot fetish content</p>
+              </div>
+              <div>
+                <p className="font-semibold text-red-300 mb-2">Premium Experience:</p>
+                <p>Luxury domination, high-end dominatrix, professional goddess, elite domination services, exclusive domination, premium domination experience</p>
+              </div>
             </div>
           </div>
         </div>
