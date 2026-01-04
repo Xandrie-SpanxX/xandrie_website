@@ -375,31 +375,29 @@ function App() {
                 Your browser does not support the video tag.
               </video>
               <div className="p-8">
-                <h3 className="text-3xl font-bold mb-4 text-red-400">The Feet of a Goddess - Foot Worship Experience</h3>
-                <p className="text-gray-300 mb-6 text-lg">Experience the ultimate foot worship fantasy with Xandrie SpanxX's goddess feet. This exclusive professional foot fetish content showcases intimate foot worship and feet domination in a luxury setting. Perfect for those seeking genuine foot worship experiences and professional foot fetish services from an experienced mistress.</p>
+                <h3 className="text-3xl font-bold mb-4 text-red-400">The Feet of a Goddess</h3>
+                <p className="text-gray-300 mb-6 text-lg">Elegance has a scent. Power has a presence. And surrender has a form. Watch as Xandrie reveals the intoxicating art of devotion—where every gesture becomes a moment of pure temptation. Whether you're drawn to the artistry of submission or simply captivated by confidence incarnate, this exclusive experience transcends fantasy. It's an invitation into a world where desire meets discipline, and every frame is crafted to seduce the senses.</p>
                 
                 <div className="bg-gray-800 border border-red-900/30 rounded-lg p-6 mb-6">
-                  <h4 className="text-red-400 font-bold mb-3">Featured Content - Goddess Feet & Foot Worship:</h4>
+                  <h4 className="text-red-400 font-bold mb-3">What You'll Discover:</h4>
                   <ul className="text-gray-300 space-y-2">
-                    <li>✦ Professional foot worship content featuring goddess feet</li>
-                    <li>✦ Intimate foot fetish experience with commanding presence</li>
-                    <li>✦ Feet domination and foot worship demonstration</li>
-                    <li>✦ Luxury setting with professional production quality</li>
-                    <li>✦ The feet of a goddess - professional foot domination</li>
+                    <li>✦ The art of worship—refined, deliberate, utterly captivating</li>
+                    <li>✦ A goddess in her element—commanding, seductive, unforgettable</li>
+                    <li>✦ Luxury production that elevates every moment</li>
+                    <li>✦ An experience designed to awaken desires you didn't know you had</li>
+                    <li>✦ Pure, unapologetic power wrapped in elegance</li>
                   </ul>
                 </div>
                 
                 <div className="flex flex-wrap gap-2 mb-6">
-                  <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Foot Worship</span>
                   <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Goddess Feet</span>
-                  <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Foot Fetish</span>
-                  <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Professional Mistress</span>
-                  <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Feet Domination</span>
-                  <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Findom Goddess</span>
-                  <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Virtual Domination</span>
+                  <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Worship</span>
+                  <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Seduction</span>
+                  <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Domination</span>
+                  <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Luxury Experience</span>
+                  <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Divine Presence</span>
+                  <span className="bg-red-900/40 text-red-300 px-4 py-2 rounded-full text-sm font-semibold">Exclusive Content</span>
                 </div>
-                
-                <p className="text-gray-400 text-xs mb-6 italic">Keywords: foot worship, goddess feet, feet fetish, professional foot domination, foot worship experience, goddess foot worship, foot fetish content, professional mistress, experienced domme, online domination, findom goddess, paypig training, financial domination, virtual domination, luxury domination, commanding mistress, professional domination</p>
                 
                 <a href="https://premium.chat/Goddess_Xandrie_Spanxx" target="_blank" rel="noopener noreferrer" className="inline-block bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg transition-all transform hover:scale-105 font-bold">
                   Book Your Goddess Experience
