@@ -50,6 +50,8 @@ function App() {
   const [formData, setFormData] = useState({
     name: '',
     age: '',
+    email: '',
+    phone: '',
     location: '',
     experience: '',
     attraction: '',
@@ -81,6 +83,10 @@ function App() {
     const form = e.currentTarget
     const formDataToSubmit = new FormData(form)
     
+    // Play whip crack sound on submission
+    const whipSound = new Audio('/whip-crack.mp3')
+    whipSound.play().catch(err => console.log('Sound play failed:', err))
+    
     fetch('https://formspree.io/f/xldobnpe', {
       method: 'POST',
       body: formDataToSubmit,
@@ -90,11 +96,17 @@ function App() {
     })
     .then(response => {
       if (response.ok) {
+        // Play whip crack sound on confirmation
+        const confirmSound = new Audio('/whip-crack.mp3')
+        confirmSound.play().catch(err => console.log('Sound play failed:', err))
+        
         alert("Application submitted successfully! Xandrie SpanxX will review your application and contact you via the provided email address if you are a good fit. Thank you for your interest!")
         // Reset form
         setFormData({
           name: '',
           age: '',
+          email: '',
+          phone: '',
           location: '',
           experience: '',
           attraction: '',
@@ -466,6 +478,34 @@ function App() {
                   required
                   className="bg-gray-900 border-red-900/50 text-white mt-2"
                   placeholder="Must be 18+"
+                />
+              </div>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <Label htmlFor="email" className="text-gray-300">Email Address *</Label>
+                <Input 
+                  id="email"
+                  name="email"
+                  type="email"
+                  value={formData.email}
+                  onChange={handleInputChange}
+                  required
+                  className="bg-gray-900 border-red-900/50 text-white mt-2"
+                  placeholder="your@email.com"
+                />
+              </div>
+              <div>
+                <Label htmlFor="phone" className="text-gray-300">Phone Number (Optional)</Label>
+                <Input 
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  value={formData.phone}
+                  onChange={handleInputChange}
+                  className="bg-gray-900 border-red-900/50 text-white mt-2"
+                  placeholder="Your phone number"
                 />
               </div>
             </div>
