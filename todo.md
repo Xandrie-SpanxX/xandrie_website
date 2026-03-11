@@ -7,14 +7,13 @@
 - [ ] Apply all pending publish changes to primary URL
 - [ ] Deactivate counter-productive changes
 - [ ] Test all features on primary URL
-- [ ] Save final checkpoint
 
-## Previous Tasks - URGENT FIXES NEEDED
-- [x] Add phone number 727-604-6669 to visible locations on site
-- [x] Add more contact information throughout the site
-- [x] Replace Adult Filmstar image with appropriate image (not wizard)
-- [x] Ensure St. Andrew's Cross displays at bottom of contact section
+- [ ] Add phone number 727-604-6669 to visible locations on site
+- [ ] Add more contact information throughout the site
+- [ ] Replace Adult Filmstar image with appropriate image (not wizard)
+- [ ] Ensure St. Andrew's Cross displays at bottom of contact section
 - [ ] Fix Formspree form not submitting properly
+- [ ] Save final checkpoint
 
 ## Completed Features
 - [x] Hero section with call-to-action
